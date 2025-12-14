@@ -1,0 +1,1 @@
+Bu klasörün içindekiler Hackathon görevlileri "CansAI.zip" adı ile paylaşılmıştır. Bu dizinde o dosyalar olması gerekmektedir.
