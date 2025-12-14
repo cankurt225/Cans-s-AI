@@ -1,0 +1,171 @@
+﻿Index;Column Name;Decision
+1;District;FILTER
+2;Neighborhood;DROP
+3;Price;KEEP
+4;Adrtisement Date;DROP
+5;m² (Gross);DROP
+6;m² (Net);KEEP
+7;Number of rooms;TRANSFORM
+8;Building Age;KEEP
+9;Floor location;TRANSFORM
+10;Number of floors;DROP
+11;Heating;TRANSFORM
+12;Number of bathrooms;KEEP
+13;Balcony;TRANSFORM
+14;Furnished;KEEP
+15;Using status;DROP
+16;Available for Loan;FILTER
+17;From who;DROP
+18;Swap;DROP
+19;Front West;DROP
+20;Front East;DROP
+21;Front South;DROP
+22;Front North;DROP
+23;ADSL;DROP
+24;Wood Joinery;DROP
+25;Smart House;KEEP
+26;Alarm (Thief);KEEP
+27;Alarm (Fire);KEEP
+28;Alaturka Toilet;DROP
+29;Aluminum joinery;DROP
+30;American Door;DROP
+31;American kitchen;KEEP
+32;Built-in on;DROP
+33;Balcony.1;DROP
+34;Barbecue;KEEP
+35;Household appliances;KEEP
+36;Painted;DROP
+37;Dishwasher;DROP
+38;Refrigerator;DROP
+39;Wall paper;DROP
+40;Shower;DROP
+41;Parents' Bathroom;KEEP
+42;Fiber Internet;KEEP
+43;On;DROP
+44;Dressing room;KEEP
+45;Closet;DROP
+46;Video intercom;DROP
+47;Hilton Bathroom;DROP
+48;Intercom System;DROP
+49;Insulating glass;DROP
+50;Jacuzzi;KEEP
+51;Plasterboard;DROP
+52;Cellar;KEEP
+53;Air conditioning;KEEP
+54;Tub;DROP
+55;Laminate Floor;DROP
+56;Marley;DROP
+57;Furniture;DROP
+58;Kitchen (Built-in);KEEP
+59;Kitchen (Laminate);DROP
+60;Kitchen Natural Gas;DROP
+61;PVC Joinery;DROP
+62;Blinds;KEEP
+63;Parquet Floor;DROP
+64;Ceramic Floor;DROP
+65;Set Top Cooker;DROP
+66;Spot Lighting;DROP
+67;Terrace;KEEP
+68;Thermosiphon;DROP
+69;Cloakroom;DROP
+70;Wi-Fi;DROP
+71;Face Recognition & Fingerprint;KEEP
+72;Washing Machine;DROP
+73;Washing machine;DROP
+74;Laundry room;KEEP
+75;Steel door;DROP
+76;Water heater;DROP
+77;Fireplace;KEEP
+78;Elevator.1;DROP
+79;Steam room;KEEP
+80;Security;KEEP
+81;Bath;KEEP
+82;Booster;DROP
+83;Thermal Insulation;KEEP
+84;Generator;KEEP
+85;Cable TV;DROP
+86;Indoors_Parking;KEEP
+87;Doorman;KEEP
+88;Nursery;KEEP
+89;Playground;KEEP
+90;Sauna;KEEP
+91;Sound insulation;KEEP
+92;Siding;DROP
+93;Sports Area;KEEP
+94;Water tank;DROP
+95;Tennis court;KEEP
+96;Satellite;DROP
+97;Fire escape;DROP
+98;Bathroom;KEEP
+99;Stairs;DROP
+100;Kitchen;KEEP
+101;Room door;DROP
+102;Socket / Electric Switch;KEEP
+103;Toilet;KEEP
+104;Shopping_Mall;KEEP
+105;municipality;DROP
+106;Mosque;FILTER
+107;Cemevi;FILTER
+108;Seafront;KEEP
+109;Pharmacy;KEEP
+110;Amusement center;KEEP
+111;Fair;DROP
+112;Hospital;KEEP
+113;Synagogue;FILTER
+114;The church;FILTER
+115;High school;KEEP
+116;Market;KEEP
+117;Police station;KEEP
+118;The health clinic;KEEP
+119;District Market;KEEP
+120;Gym;KEEP
+121;University;KEEP
+122;Primary School-Secondary School;KEEP
+123;Fire Department;DROP
+124;Town center;KEEP
+125;Highway;KEEP
+126;Eurasia Tunnel;KEEP
+127;Bosphorus Bridges;KEEP
+128;Street;DROP
+129;Sea bus;KEEP
+130;Shared_Taxi_Dolmus;KEEP
+131;E-5;KEEP
+132;Airport;KEEP
+133;Marmaray;KEEP
+134;Metro;KEEP
+135;Metrobus;KEEP
+136;Minibus;DROP
+137;Bus stop;DROP
+138;Coast;KEEP
+139;TEM;KEEP
+140;Cable car;KEEP
+141;Tram;KEEP
+142;Railway station;DROP
+143;Trolley bus;DROP
+144;Ferry_Dock;KEEP
+145;Bosphorus_View;KEEP
+146;Sea;KEEP
+147;Nature;KEEP
+148;Lake;KEEP
+149;Park & Green Area;KEEP
+150;City;DROP
+151;Mezzanine;TRANSFORM
+152;Mezzanine Duplex;TRANSFORM
+153;Garden Duplex;KEEP
+154;Garden Floor;KEEP
+155;Garden;KEEP
+156;Top floor;TRANSFORM
+157;Entrance floor;TRANSFORM
+158;Floor Duplex;TRANSFORM
+159;Private Entry;KEEP
+160;Reverse_Duplex;TRANSFORM
+161;Triplex;KEEP
+162;Ground floor;TRANSFORM
+163;Roof Duplex;KEEP
+164;Pick Up Data Time;DROP
+165;Has_Pool;DROP
+166;Has_Parking;DROP
+167;Accessibility_Score;KEEP
+168;Is_Handicap_Accessible;KEEP
+169;Near_Park;DROP
+170;Has_Elevator;DROP
