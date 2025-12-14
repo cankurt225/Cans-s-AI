@@ -1,0 +1,64 @@
+========================================================================
+PROJE SUNUM VE TEKNİK RAPOR DOSYASI
+(Bu dosyayı doldurup proje klasörünüzün içine ekleyiniz.)
+========================================================================
+
+TAKIM ADI:
+TAKIM ÜYELERİ:
+1. Can Ahmet Kurt
+2. Hasan Bircan Taş
+
+------------------------------------------------------------------------
+1. PROJE ÖZETİ
+------------------------------------------------------------------------
+Yeni ev almak isteyen insanlar; binlerce ilan arasında kaybolmakta, yaşam tarzını ve hayatını unutarak ev özellikleri seçerek hata yapmakta, dolandırıcı ilanlarına kanabilmektedir. Niyeti yeni bir ev bulmak olan
+kullanıcı emlak ilanı dünyasına kaybolmaktadır. Geliştirdiğimiz proje kullanıcının hayat tarzına göre en uygun evleri göstermekte, mevcut evinin fiyat değerlemesini yapmaktadır. Aynı uygulama içinde ilan vermek isteyen emlakçılar
+ise ilanlarını anomali tespitine sokmak zorundadır. 
+
+
+------------------------------------------------------------------------
+2. KURULUM VE ÇALIŞTIRMA (How to Run)
+------------------------------------------------------------------------
+(Jüri üyeleri projenizi kendi bilgisayarlarında nasıl çalıştıracak? Adım adım yazın.)
+Örnek:
+1. pip install -r requirements.txt
+2. streamlit run app.py
+
+
+------------------------------------------------------------------------
+3. VERİ ÖN İŞLEME YAKLAŞIMI (Data Engineering)
+------------------------------------------------------------------------
+3.1. Data preprocessing for all models
+      Bu adımda data modeller için özelleştirilmeden genel temizliği yapılmıştır.
+      a. Çeviri hataları düzeltme
+      b. Aynı anlama gelen verileri tek sütunda toplama (Park - Park1 vb.)
+      c. Veri tipi düzeltmeleri (Fiyat, m2 gibi veriler int'e çevrilmiştir)
+3.2 Data cleaned for KNN
+    Kullanının hayat tarzına göre emlak önermek için eğitilen KNN modeli için veri özelleştirilmiştir. Teker teker sütunlar incelenerek kullanıcı tarafından
+önemsenen kriterler belirlenerek diğer sütunlar silinmiştir. 
+3.3 Data Cleaning From Zeros
+    Bazı sınıf kolonlarının büyük bir çoğunluğu sıfırdan oluştuğu tespit edilerek silinmiştir.
+
+
+------------------------------------------------------------------------
+4. MODEL MİMARİSİ
+------------------------------------------------------------------------
+4.1 KNN
+Bu model kullanıcının yaşam tarzına göre emlak önermek için kullanılmıştır. Kullanıcıya sözel sorular sorularak tespit edilen parametre değerleri ile emlak ilan verisetlerinin bulunduğu
+uzayda oluşturulan hayali eve en yakın evler yani komşular bulunur. Komşular ile mesafeler ölçülür. 
+
+
+------------------------------------------------------------------------
+5. YATIRIM KARAR MANTIĞI (Business Logic)
+------------------------------------------------------------------------
+(Kullanıcıya "Fırsat" veya "Pahalı" derken hangi matematiği kullandınız?)
+Örnek: "Eğer (İlan Fiyatı < Model Tahmini * 0.90) ise FIRSAT dedik."
+
+- FIRSAT Eşiği:
+- PAHALI Eşiği:
+
+
+------------------------------------------------------------------------
+6. SİZİ DİĞERLERİNDEN AYIRAN ÖZELLİK (Unique Value)
+------------------------------------------------------------------------
+(Projenizde ekstra ne var? Arayüz tasarımı mı, enflasyon hesaplaması mı, farklı bir bakış açısı mı?)
